@@ -26,7 +26,7 @@ public class Principal {
 
         do {
 
-            System.out.println("\n--- MENU ---");
+            System.out.println("\n--1 MENU --");
             System.out.println("1. Consultar saldo");
             System.out.println("2. Retirar dinero");
             System.out.println("3. Salir");
@@ -41,7 +41,7 @@ public class Principal {
 
                 case 2:
 
-                    System.out.print("Monto a retirar: ");
+                    System.out.print("cantidad a retirar: ");
                     double monto = sc.nextDouble();
 
                     if(cajero.validarRetiro(monto, cuenta)){
